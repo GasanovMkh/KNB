@@ -65,7 +65,7 @@ namespace Test
 
         public void Next_Click(object sender, EventArgs e)
         {
-            if (NextQuestionClick != null) NextQuestionClick(this, EventArgs.Empty);
+            NextQuestionClick?.Invoke(this, EventArgs.Empty);
         }
 
         public void Complete_Click(object sender, EventArgs e)
