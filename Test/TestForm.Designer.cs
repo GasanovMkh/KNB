@@ -62,7 +62,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(-2, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(307, 263);
+            this.pictureBox1.Size = new System.Drawing.Size(343, 263);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -73,7 +73,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.sentence.Location = new System.Drawing.Point(21, 119);
             this.sentence.Name = "sentence";
-            this.sentence.Size = new System.Drawing.Size(270, 20);
+            this.sentence.Size = new System.Drawing.Size(306, 20);
             this.sentence.TabIndex = 6;
             // 
             // response_a
@@ -97,7 +97,7 @@
             // response_d
             // 
             this.response_d.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.response_d.Location = new System.Drawing.Point(157, 50);
+            this.response_d.Location = new System.Drawing.Point(193, 50);
             this.response_d.Name = "response_d";
             this.response_d.Size = new System.Drawing.Size(100, 20);
             this.response_d.TabIndex = 5;
@@ -106,7 +106,7 @@
             // response_c
             // 
             this.response_c.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.response_c.Location = new System.Drawing.Point(157, 21);
+            this.response_c.Location = new System.Drawing.Point(193, 21);
             this.response_c.Name = "response_c";
             this.response_c.Size = new System.Drawing.Size(100, 20);
             this.response_c.TabIndex = 4;
@@ -115,7 +115,7 @@
             // tb_true
             // 
             this.tb_true.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.tb_true.Location = new System.Drawing.Point(273, 33);
+            this.tb_true.Location = new System.Drawing.Point(291, 33);
             this.tb_true.Name = "tb_true";
             this.tb_true.Size = new System.Drawing.Size(18, 20);
             this.tb_true.TabIndex = 11;
@@ -123,7 +123,7 @@
             // tb_false
             // 
             this.tb_false.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.tb_false.Location = new System.Drawing.Point(273, 58);
+            this.tb_false.Location = new System.Drawing.Point(291, 58);
             this.tb_false.Name = "tb_false";
             this.tb_false.Size = new System.Drawing.Size(18, 20);
             this.tb_false.TabIndex = 12;
@@ -131,7 +131,7 @@
             // str_true
             // 
             this.str_true.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.str_true.Location = new System.Drawing.Point(223, 33);
+            this.str_true.Location = new System.Drawing.Point(241, 33);
             this.str_true.Name = "str_true";
             this.str_true.Size = new System.Drawing.Size(44, 20);
             this.str_true.TabIndex = 13;
@@ -140,7 +140,7 @@
             // str_false
             // 
             this.str_false.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.str_false.Location = new System.Drawing.Point(223, 58);
+            this.str_false.Location = new System.Drawing.Point(241, 58);
             this.str_false.Name = "str_false";
             this.str_false.Size = new System.Drawing.Size(44, 20);
             this.str_false.TabIndex = 14;
@@ -149,7 +149,7 @@
             // score
             // 
             this.score.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.score.Location = new System.Drawing.Point(170, 33);
+            this.score.Location = new System.Drawing.Point(188, 33);
             this.score.Name = "score";
             this.score.Size = new System.Drawing.Size(47, 20);
             this.score.TabIndex = 15;
@@ -162,14 +162,14 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.request.Location = new System.Drawing.Point(21, 85);
             this.request.Name = "request";
-            this.request.Size = new System.Drawing.Size(270, 20);
+            this.request.Size = new System.Drawing.Size(306, 20);
             this.request.TabIndex = 1;
             this.request.Text = "Choose the correct answer";
             // 
             // pb_next
             // 
             this.pb_next.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pb_next.Location = new System.Drawing.Point(135, 227);
+            this.pb_next.Location = new System.Drawing.Point(171, 227);
             this.pb_next.Name = "pb_next";
             this.pb_next.Size = new System.Drawing.Size(75, 23);
             this.pb_next.TabIndex = 16;
@@ -179,7 +179,7 @@
             // pb_complete
             // 
             this.pb_complete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pb_complete.Location = new System.Drawing.Point(216, 227);
+            this.pb_complete.Location = new System.Drawing.Point(252, 227);
             this.pb_complete.Name = "pb_complete";
             this.pb_complete.Size = new System.Drawing.Size(75, 23);
             this.pb_complete.TabIndex = 18;
@@ -199,13 +199,13 @@
             // 
             this.ts_menu.Location = new System.Drawing.Point(0, 0);
             this.ts_menu.Name = "ts_menu";
-            this.ts_menu.Size = new System.Drawing.Size(303, 25);
+            this.ts_menu.Size = new System.Drawing.Size(339, 25);
             this.ts_menu.TabIndex = 17;
             this.ts_menu.Text = "toolStrip1";
             // 
             // rb_a
             // 
-            this.rb_a.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.rb_a.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rb_a.AutoSize = true;
             this.rb_a.Location = new System.Drawing.Point(6, 25);
             this.rb_a.Name = "rb_a";
@@ -215,7 +215,7 @@
             // 
             // rb_b
             // 
-            this.rb_b.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.rb_b.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rb_b.AutoSize = true;
             this.rb_b.Location = new System.Drawing.Point(6, 53);
             this.rb_b.Name = "rb_b";
@@ -227,7 +227,7 @@
             // 
             this.rb_c.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.rb_c.AutoSize = true;
-            this.rb_c.Location = new System.Drawing.Point(137, 25);
+            this.rb_c.Location = new System.Drawing.Point(173, 25);
             this.rb_c.Name = "rb_c";
             this.rb_c.Size = new System.Drawing.Size(14, 13);
             this.rb_c.TabIndex = 22;
@@ -237,7 +237,7 @@
             // 
             this.rb_d.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.rb_d.AutoSize = true;
-            this.rb_d.Location = new System.Drawing.Point(137, 53);
+            this.rb_d.Location = new System.Drawing.Point(173, 53);
             this.rb_d.Name = "rb_d";
             this.rb_d.Size = new System.Drawing.Size(14, 13);
             this.rb_d.TabIndex = 23;
@@ -258,7 +258,7 @@
             this.groupBox1.Controls.Add(this.response_d);
             this.groupBox1.Location = new System.Drawing.Point(22, 145);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(269, 76);
+            this.groupBox1.Size = new System.Drawing.Size(305, 76);
             this.groupBox1.TabIndex = 24;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Variants of answers:";
@@ -267,7 +267,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(303, 262);
+            this.ClientSize = new System.Drawing.Size(339, 262);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pb_start);
             this.Controls.Add(this.pb_complete);

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing.Text;
 using System.Linq;
 using TestBL;
 using TestBL.DB;
@@ -25,10 +26,15 @@ namespace Test
         {
             _view.Question = Database.Questions.First();
         }
-
+        
         public void _view_NextQuestionClick(object sender, EventArgs e)
         {
-           
+            var oldQuestion = ((ITestForm)sender).Question;
+            var index = Database.Questions.IndexOf(oldQuestion);
+            if (index == Database.Questions.Count - 1)
+                return;
+            _view.Question = Database.Questions.ElementAt(++index);
+
         }
     }
 }

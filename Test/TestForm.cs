@@ -14,7 +14,7 @@ namespace Test
     public partial class TestForm : Form, ITestForm
     {
         private Question _question;
-
+      
         public Question Question
         {
             get { return _question; }
@@ -23,7 +23,10 @@ namespace Test
                 _question = value;
                 sentence.Text = _question.Name;
                 //добавить ответ для каждого текстбокса.
-
+                response_a.Text = _question.Answers[0].Name;
+                response_b.Text = _question.Answers[1].Name;
+                response_c.Text = _question.Answers[2].Name;
+                response_d.Text = _question.Answers[3].Name;
             }
         }
 
