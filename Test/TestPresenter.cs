@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TestBL;
-using System.Windows.Forms;
+using TestBL.DB;
 
 namespace Test
 {
@@ -26,16 +23,12 @@ namespace Test
 
         public void _view_StartTestClick(object sender, EventArgs e)
         {
-            _view.Question = "What ____ the time?";
-            _view.Answer_A = "be";
-            _view.Answer_B = "is";//
-            _view.Answer_C = "are";
-            _view.Answer_D = "was";
+            _view.Question = Database.Questions.FirstOrDefault();
         }
 
         public void _view_NextQuestionClick(object sender, EventArgs e)
         {
-        
+
         }
     }
 }

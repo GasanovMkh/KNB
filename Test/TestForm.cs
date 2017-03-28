@@ -1,53 +1,35 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using TestBL;
 
 namespace Test
 {
     public interface ITestForm
     {
-        string Question { get; set; }
-        string Answer_A { get; set; }
-        string Answer_B { get; set; }
-        string Answer_C { get; set; }
-        string Answer_D { get; set; }
+        Question Question { get; set; }
         event EventHandler StartTestClick;
         event EventHandler NextQuestionClick;
         event EventHandler CompleteClick;
     }
     public partial class TestForm : Form, ITestForm
     {
-        public string Question
+        private Question _question;
+
+        public Question Question
         {
-            get { return sentence.Text; }
-            set { sentence.Text = value; }
+            get { return _question; }
+            set
+            {
+                var question = value;
+                sentence.Text = question.Name;
+                response_a.Text = question.Answers[0].Name;
+                response_a.Text = question.Answers[1].Name;
+                response_a.Text = question.Answers[2].Name;
+                response_a.Text = question.Answers[3].Name;
+
+            }
         }
-        public string Answer_A
-        {
-            get { return response_a.Text; }
-            set { response_a.Text = value; }
-        }
-        public string Answer_B
-        {
-            get { return response_b.Text; }
-            set { response_b.Text = value; }
-        }
-        public string Answer_C
-        {
-            get { return response_c.Text; }
-            set { response_c.Text = value; }
-        }
-        public string Answer_D
-        {
-            get { return response_d.Text; }
-            set { response_d.Text = value; }
-        }
+
         public TestForm()
         {
             InitializeComponent();
@@ -55,7 +37,7 @@ namespace Test
             pb_start.Click += Start_Click;
             pb_next.Click += Next_Click;
             pb_complete.Click += Complete_Click;
-           }
+        }
 
         #region Проброс событий
         public void Start_Click(object sender, EventArgs e)
