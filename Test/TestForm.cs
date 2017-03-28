@@ -20,9 +20,9 @@ namespace Test
             get { return _question; }
             set
             {
-                var question = value;
-                sentence.Text = question.Name;
-               //добавить ответ для каждого текстбокса.
+                _question = value;
+                sentence.Text = _question.Name;
+                //добавить ответ для каждого текстбокса.
 
             }
         }

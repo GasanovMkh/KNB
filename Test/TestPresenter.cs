@@ -23,12 +23,12 @@ namespace Test
 
         public void _view_StartTestClick(object sender, EventArgs e)
         {
-            _view.Question = Database.Questions.FirstOrDefault();
+            _view.Question = Database.Questions.First();
         }
 
         public void _view_NextQuestionClick(object sender, EventArgs e)
         {
-
+           
         }
     }
 }
