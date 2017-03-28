@@ -22,10 +22,7 @@ namespace Test
             {
                 var question = value;
                 sentence.Text = question.Name;
-                response_a.Text = question.Answers[0].Name;
-                response_a.Text = question.Answers[1].Name;
-                response_a.Text = question.Answers[2].Name;
-                response_a.Text = question.Answers[3].Name;
+               //добавить ответ для каждого текстбокса.
 
             }
         }
